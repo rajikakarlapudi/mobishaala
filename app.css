@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+}
+
+.app-container {
+    display: flex;
+    background-image: url('https://rb.gy/abri99');
+    background-size: cover;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0px;
+
+}
+
+.left-container {
+    display: flex;
+    margin-top: 30px;
+    padding: 15px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.heading {
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Arial";
+    font-size: 28px;
+}
+
+.tagline {
+    color: #ffffff;
+    font-family: "Arial";
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.tag {
+    color: #e09918;
+}
+
+.stats {
+    list-style-type: disc;
+    color: #ffffff;
+    margin-top: 19px;
+    padding: 5px;
+}
+
+.para {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.who-can-use {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.student {
+    font-size: 12px;
+    color: white;
+    font-family: "Roboto";
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #e20813;
+    color: #ffffff;
+    font-family: "Roboto";
+    cursor: pointer;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-1 {
+    height: 35px;
+    width: 90px;
+}
+
+.btn-2 {
+
+    height: 35px;
+    width: 120px;
+
+}
+
+.btn-3 {
+    background-color: #196e03;
+    width: 110px;
+    height: 40px;
+    font-size: 14px;
+
+}
+
+.wa-logo {
+    margin-top: 5px;
+    height: 15px;
+    width: 17px;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.bottom-container {
+    display: none;
+}
+
+.btn-4 {
+    width: 40px;
+    height: 30px;
+    align-self: center;
+    margin-top: 5px;
+
+}
+
+@media (max-width:576px) {
+    .app-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .left-container {
+        flex-direction: column;
+    }
+
+    .heading {
+        display: none;
+    }
+
+    .stats {
+        display: none;
+    }
+
+    .right-container {
+        order: 2;
+    }
+
+    .who-can-use {
+        margin-top: 7px;
+        order: 3;
+    }
+
+    .bottom-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #9d2231;
+        margin-top: 0px;
+        padding: 20px 15px 20px 15px;
+        font-family: "Arial";
+        color: #ffffff;
+    }
+
+    .heading-2 {
+        font-weight: 800;
+        font-size: 38px;
+    }
+
+    .columns {
+        margin: 20px;
+    }
+
+    .vision {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .description {
+        font-family: "Roboto";
+        font-size: 15px;
+        margin: 12px;
+    }
+
+    .address {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .link {
+        margin: 12px;
+    }
+
+}
